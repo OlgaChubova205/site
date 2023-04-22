@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px 0
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    margin-left: 60px;
+    font-size: 20px;
+    color: blue;
+        
+}
+header a:hover{
+    color: firebrick;
+}
+
+header ul {
+    display: flex;
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    padding: 100px 0;
+}
+
+.gallery-content .right {
+    width: 100%;
+    margin-left: 60px
+}
+
+.gallery h2 {
+    font-size: 32px;
+    color: darkblue;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.gallery ul {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.gallery li div {
+    width: 400px;
+}
+.gallery .price
+{
+    margin-left: 60px;
+    
+}
+.production-content{
+    display:flex;
+    justify-content: space-around;
+}
+.card img{
+    width: 200px;
+}
+.footer-content{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-content .footer-link{
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    background-color: #f1f1f1;
+    background-image: url(img/fon1.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer h3{
+    margin: 0;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+}
+.production-list{
+    padding: 100px 0;
+}
+.gallery{
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+li span{
+    width: 200px;
+}
